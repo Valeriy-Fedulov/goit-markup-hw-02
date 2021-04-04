@@ -44,6 +44,7 @@ li {
 }
 
 .adress-nav {
+  line-height: 1.14;
   color: #757575;
   letter-spacing: 0.02em;
 }
@@ -61,7 +62,7 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #ffff;
   /* Временный фон */
   background-color: #2f303a;
 }
@@ -72,6 +73,14 @@ li {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: #ffff;
   background-color: var(--main-color);
+}
+
+/* Особенности */
+.features {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
 }
