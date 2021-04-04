@@ -1,0 +1,40 @@
+:root {
+  --main-color: #2196f3;
+  --main-family: 'Roboto', sans-serif;
+}
+
+/* Общий стиль */
+.list {
+  font-family: var(--main-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Логотип */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000;
+}
+
+.logo-web {
+  color: var(--main-color);
+}
+
+/* Навигация */
+.main-nav {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.main-nav:hover,
+:focus {
+  color: var(--main-color);
+}
