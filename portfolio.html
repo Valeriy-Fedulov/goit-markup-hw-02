@@ -16,19 +16,31 @@
     />
     <title>WebStudio</title>
   </head>
-  <body>
+  <body class="list">
     <header>
       <nav>
-        <a href="./index.html"><h2>WebStudio</h2></a>
+        <a class="logo" href="./index.html"
+          ><h2><span class="logo-web">Web</span>Studio</h2></a
+        >
         <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a class="main-nav" href="./index.html">Студия</a></li>
+          <li>
+            <a class="main-nav" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="main-nav" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="main-nav adress-nav" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="main-nav adress-nav" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
@@ -37,11 +49,11 @@
         <h1>Портфолио</h1>
         <!-- Фильтр портфолио -->
         <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button class="port-btn" type="button">Все</button></li>
+          <li><button class="port-btn" type="button">Веб-сайты</button></li>
+          <li><button class="port-btn" type="button">Приложения</button></li>
+          <li><button class="port-btn" type="button">Дизайн</button></li>
+          <li><button class="port-btn" type="button">Маркетинг</button></li>
         </ul>
         <!-- Услуги -->
         <ul>
@@ -52,8 +64,8 @@
                 alt="Ноутбук с карточками команды"
                 width="370"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="services">Технокряк</h2>
+              <p class="serv-text">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -63,8 +75,10 @@
                 alt="Игра в баскетбол"
                 width="370"
               />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="services">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="serv-text">Дизайн</p>
             </a>
           </li>
           <li>
@@ -74,8 +88,8 @@
                 alt="Логотип ресторана"
                 width="370"
               />
-              <h2>Ресторан <span>Seafood</span></h2>
-              <p>Приложение</p>
+              <h2 class="services">Ресторан <span>Seafood</span></h2>
+              <p class="serv-text">Приложение</p>
             </a>
           </li>
           <li>
@@ -85,8 +99,8 @@
                 alt="Наушники"
                 width="370"
               />
-              <h2>Проект <span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="services">Проект <span lang="en">Prime</span></h2>
+              <p class="serv-text">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -96,8 +110,8 @@
                 alt="Две коробочки"
                 width="370"
               />
-              <h2>Проект <span lang="en">Boxes</span></h2>
-              <p>Приложение</p>
+              <h2 class="services">Проект <span lang="en">Boxes</span></h2>
+              <p class="serv-text">Приложение</p>
             </a>
           </li>
           <li>
@@ -107,8 +121,8 @@
                 alt="Макбук"
                 width="370"
               />
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="services" lang="en">Inspiration has no Borders</h2>
+              <p class="serv-text">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -118,8 +132,10 @@
                 alt="Журнал"
                 width="370"
               />
-              <h2>Издание <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="services">
+                Издание <span lang="en">Limited Edition</span>
+              </h2>
+              <p class="serv-text">Дизайн</p>
             </a>
           </li>
           <li>
@@ -129,8 +145,8 @@
                 alt="Этикетка"
                 width="370"
               />
-              <h2>Проект <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="services">Проект <span lang="en">LAB</span></h2>
+              <p class="serv-text">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -140,8 +156,8 @@
                 alt="Ноутбук"
                 width="370"
               />
-              <h2 lang="en">Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="services" lang="en">Growing Business</h2>
+              <p class="serv-text">Приложение</p>
             </a>
           </li>
         </ul>
@@ -149,12 +165,16 @@
     </main>
     <footer>
       <!-- Адрес -->
-      <section>
-        <a href="./index.html"><h2>WebStudio</h2></a>
+      <section class="adr">
+        <a class="logo" href="./index.html"
+          ><h2><span class="logo-web">Web</span>Studio</h2></a
+        >
         <address>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <p class="foot-adr">г. Киев, пр-т Леси Украинки, 26</p>
+          <a class="mail-tel" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          ><br />
+          <a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
       </section>
     </footer>

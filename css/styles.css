@@ -77,6 +77,7 @@ a {
 }
 
 .main-btn {
+  font-family: var(--main-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -136,4 +137,37 @@ footer a h2 {
 
 .adr {
   background: #2f303a;
+}
+
+/* Портфолио фильтр */
+.port-btn {
+  font-family: var(--main-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+}
+
+.port-btn:hover,
+:focus {
+  color: #fff;
+  background: var(--main-color);
+}
+
+/* Портфолио услуги*/
+.services {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.serv-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
 }
