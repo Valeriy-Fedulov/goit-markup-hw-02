@@ -1,6 +1,7 @@
 :root {
   --main-color: #2196f3;
   --main-family: 'Roboto', sans-serif;
+  --h-color: #212121;
 }
 
 /* Общий стиль */
@@ -35,7 +36,7 @@ li {
 .main-nav {
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--h-color);
 }
 
 .main-nav:hover,
@@ -82,5 +83,24 @@ li {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--h-color);
+}
+
+/* Чем мы занимаемся */
+.sect {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--h-color);
+}
+
+/* Наша команда */
+.team {
+  line-height: 1.19;
+  color: var(--h-color);
+}
+
+.prof {
+  line-height: 1.19;
 }
