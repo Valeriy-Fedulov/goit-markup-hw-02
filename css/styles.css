@@ -32,6 +32,10 @@ a {
   color: #000;
 }
 
+.logo:focus {
+  color: #000;
+}
+
 .logo-web {
   color: var(--main-color);
 }
@@ -111,9 +115,25 @@ a {
 }
 
 /* Адрес */
+.adr a h2 {
+  color: #fff;
+}
+
 .foot-adr {
   font-style: normal;
-  color: #ffff;
-  /* Временный фон */
+  color: #fff;
+}
+
+.mail-tel {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-tel:hover,
+:focus {
+  color: var(--main-color);
+}
+
+.adr {
   background: #2f303a;
 }
