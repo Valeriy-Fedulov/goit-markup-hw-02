@@ -19,6 +19,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Логотип */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -101,6 +105,15 @@ li {
   color: var(--h-color);
 }
 
-.prof {
+.team-prof {
   line-height: 1.19;
+  color: #757575;
+}
+
+/* Адрес */
+.foot-adr {
+  font-style: normal;
+  color: #ffff;
+  /* Временный фон */
+  background: #2f303a;
 }
