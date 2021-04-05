@@ -87,8 +87,15 @@ a {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffff;
-  background-color: var(--main-color);
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.activ-btn:hover,
+.activ-btn:focus {
+  color: #fff;
+  background: var(--main-color);
 }
 
 /* Особенности */
@@ -154,6 +161,7 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .port-btn:hover,
