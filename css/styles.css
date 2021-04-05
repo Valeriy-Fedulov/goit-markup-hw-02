@@ -41,25 +41,29 @@ a {
 }
 
 /* Навигация */
-.main-nav {
+.menu {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--h-color);
 }
 
-.main-nav:hover,
-:focus {
+.activ-menu {
   color: var(--main-color);
 }
 
-.adress-nav {
+.menu:hover,
+.main:focus {
+  color: var(--main-color);
+}
+
+.menu-conect {
   line-height: 1.14;
   color: #757575;
   letter-spacing: 0.02em;
 }
 
-.adress-nav:hover,
-:focus {
+.menu-conect:hover,
+.main-conect:focus {
   color: var(--main-color);
 }
 
@@ -116,12 +120,8 @@ a {
 }
 
 /* Адрес */
-footer a h2 {
-  color: #fff;
-}
-
-.foot-adr {
-  font-style: normal;
+.foot-logo,
+.foot-logo:focus {
   color: #fff;
 }
 
@@ -136,7 +136,12 @@ footer a h2 {
 }
 
 .adr {
-  background: #2f303a;
+  background-color: #2f303a;
+}
+
+.foot-adr {
+  font-style: normal;
+  color: #fff;
 }
 
 /* Портфолио фильтр */
@@ -148,11 +153,11 @@ footer a h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .port-btn:hover,
-:focus {
+.port-btn:focus {
   color: #fff;
   background: var(--main-color);
 }
