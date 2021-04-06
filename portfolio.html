@@ -4,36 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="list">
+  <body class="page">
     <header>
       <nav>
-        <a class="logo" href="./index.html"
+        <a class="logo list" href="./index.html"
           ><h2><span class="logo-web">Web</span>Studio</h2></a
         >
-        <ul>
-          <li><a class="menu" href="./index.html">Студия</a></li>
+        <ul class="list">
+          <li><a class="site-nav list" href="./index.html">Студия</a></li>
           <li>
-            <a class="menu activ-menu" href="./portfolio.html">Портфолио</a>
+            <a class="site-nav list activ-menu" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
-          <li><a class="menu" href="">Контакты</a></li>
+          <li><a class="site-nav list" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li>
-          <a class="menu menu-conect" href="mailto:info@devstudio.com"
+          <a class="site-nav conect-nav list" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="menu menu-conect" href="tel:+380961111111"
+          <a class="site-nav conect-nav list" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
@@ -44,7 +46,7 @@
       <section>
         <h1>Портфолио</h1>
         <!-- Фильтр портфолио -->
-        <ul>
+        <ul class="list">
           <li><button class="port-btn activ-btn" type="button">Все</button></li>
           <li>
             <button class="port-btn activ-btn" type="button">Веб-сайты</button>
@@ -60,9 +62,9 @@
           </li>
         </ul>
         <!-- Услуги -->
-        <ul>
+        <ul class="list">
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-1.jpg"
                 alt="Ноутбук с карточками команды"
@@ -73,7 +75,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-2.jpg"
                 alt="Игра в баскетбол"
@@ -86,7 +88,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-3.jpg"
                 alt="Логотип ресторана"
@@ -97,7 +99,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-4.jpg"
                 alt="Наушники"
@@ -108,7 +110,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-5.jpg"
                 alt="Две коробочки"
@@ -119,7 +121,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-6.jpg"
                 alt="Макбук"
@@ -130,7 +132,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-7.jpg"
                 alt="Журнал"
@@ -143,7 +145,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-8.jpg"
                 alt="Этикетка"
@@ -154,7 +156,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="list" href="">
               <img
                 src="./images/portfolio/portfolio-9.jpg"
                 alt="Ноутбук"
@@ -170,15 +172,17 @@
     <footer>
       <!-- Адрес -->
       <section class="adr">
-        <a class="logo foot-logo" href="./index.html"
+        <a class="logo foot-logo list" href="./index.html"
           ><h2><span class="logo-web">Web</span>Studio</h2></a
         >
         <address>
           <p class="foot-adr">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="mail-tel" href="mailto:info@devstudio.com"
+          <a class="mail-tel list" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           ><br />
-          <a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="mail-tel list" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </address>
       </section>
     </footer>
